@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ceadeal.javafxboot.ctrl.MainCtrl">
+   <children>
+      <Label layoutX="250.0" layoutY="210.0" text="欢迎使用javafx-小工具">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAlert" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onBtnAlertClick" text="打开新的页面" />
+      <Button fx:id="btnChooseFile" layoutX="109.0" layoutY="14.0" mnemonicParsing="false" onAction="#onBtnChooseFileClick" text="选择文件" />
+      <Button fx:id="btnChooseFile1" layoutX="186.0" layoutY="14.0" mnemonicParsing="false" onAction="#onBtnChooseFileClick1" text="作者" />
+
+   </children>
+</Pane>
