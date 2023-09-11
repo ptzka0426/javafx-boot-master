@@ -3,9 +3,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
 <Pane fx:id="rootIndex" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ceadeal.javafxboot.ctrl.index">
    <children>
+      <Button fx:id="btn1" onAction="#btn1" layoutX="83.0" layoutY="74.0" mnemonicParsing="false" text="选择文件" />
       <Label layoutX="261.0" layoutY="207.0" text="欢迎这是新的界面" />
    </children>
 </Pane>
